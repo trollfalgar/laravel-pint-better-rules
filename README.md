@@ -2,14 +2,14 @@
 
 # Laravel Pint's Better Rules
 
-This project is focused in create the best set of rules for Laravel Pìnt.
+This project is focused in create the best set of rules for Laravel Pint.
 
 **Laravel Pint** is an opinionated PHP code style fixer for minimalists. Pint is built on top of [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) and makes it simple to ensure that your code style stays clean and consistent.
 
 ## Preset and Rules
 
 - By default, the preset used is **PSR12**. But you can change to `laravel` or even `symfony`.
-- This preset was chosen by my personal preference, you can use what you want.
+- This preset was chosen by my personal preference, you can use what ever you want.
 - The set of rules applied in this configuration was chosen to a clean, organized and modern code.
 
 ## Laravel Pint Official Documentation
