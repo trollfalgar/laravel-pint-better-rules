@@ -20,7 +20,7 @@
             "sort_algorithm": "alpha"
         },
         "array_indentation": true,
-        "trailing_comma_in_multiline": false,
+        "trailing_comma_in_multiline": true,
         "method_chaining_indentation": true,
         "binary_operator_spaces": true,
         "strict_comparison": true,
