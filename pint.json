@@ -25,6 +25,10 @@
         "binary_operator_spaces": true,
         "strict_comparison": true,
         "standardize_not_equals": true,
-        "strict_param": true
+        "strict_param": true,
+        "new_with_braces": {
+            "named_class": true,
+            "anonymous_class": false
+        }
     }
 }
