@@ -29,6 +29,7 @@
         "new_with_braces": {
             "named_class": true,
             "anonymous_class": false
-        }
+        },
+        "static_lambda": true
     }
 }
