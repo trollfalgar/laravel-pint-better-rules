@@ -8,7 +8,7 @@ This project is focused in create the best set of rules for Laravel Pint.
 
 ## Preset and Rules
 
-- By default, the preset used is **PSR12**. But you can change to `laravel` or even `symfony`.
+- By default, the preset used is **PER**, a new and modern preset over the PSR12. But you can change to `laravel`, `psr12` or even `symfony`.
 - This preset was chosen by my personal preference, you can use what ever you want.
 - The set of rules applied in this configuration was chosen to a clean, organized and modern code.
 
