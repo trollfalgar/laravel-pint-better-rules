@@ -1,5 +1,5 @@
 {
-    "preset": "psr12",
+    "preset": "per",
     "rules": {
         "simplified_null_return": true,
         "void_return": true,
