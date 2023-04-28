@@ -30,7 +30,7 @@
             "named_class": true,
             "anonymous_class": false
         },
-        "static_lambda": true,
+        "static_lambda": false,
         "single_quote": true,
         "function_declaration": true
     }
