@@ -11,6 +11,7 @@
         "no_useless_else": true,
         "no_useless_return": true,
         "ordered_traits": true,
+        "ordered_interfaces": true,
         "return_assignment": true,
         "array_indentation": true,
         "trailing_comma_in_multiline": true,
