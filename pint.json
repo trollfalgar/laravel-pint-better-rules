@@ -5,30 +5,66 @@
         "void_return": true,
         "fully_qualified_strict_types": true,
         "compact_nullable_typehint": true,
-        "cast_spaces": true,
+        "cast_spaces": {
+            "space": "single"
+        },
         "not_operator_with_successor_space": true,
         "no_unused_imports": true,
         "no_useless_else": true,
         "no_useless_return": true,
         "ordered_traits": true,
-        "ordered_interfaces": true,
+        "ordered_interfaces": {
+            "order": "alpha",
+            "direction": "ascend",
+            "case_sensitive": false
+        },
         "return_assignment": true,
         "array_indentation": true,
-        "trailing_comma_in_multiline": true,
+        "trailing_comma_in_multiline": {
+            "after_heredoc": false,
+            "elements": [
+                "arguments",
+                "arrays",
+                "match",
+                "parameters"
+            ]
+        },
         "method_chaining_indentation": true,
-        "binary_operator_spaces": true,
+        "binary_operator_spaces": {
+            "default": "single_space"
+        },
         "strict_comparison": true,
         "standardize_not_equals": true,
         "strict_param": true,
         "static_lambda": false,
-        "single_quote": true,
-        "function_to_constant": true,
+        "single_quote": {
+            "strings_containing_single_quote_chars": false
+        },
+        "function_to_constant": {
+            "functions": [
+                "get_called_class",
+                "get_class",
+                "get_class_this",
+                "php_sapi_name",
+                "phpversion",
+                "pi"
+            ]
+        },
         "simplified_if_return": true,
-        "function_declaration": true,
+        "function_declaration": {
+            "closure_fn_spacing": "one",
+            "closure_function_spacing": "one",
+            "trailing_comma_single_line": false
+        },
         "single_import_per_statement": {
             "group_to_single_imports": false
         },
-        "yoda_style": true,
+        "yoda_style": {
+            "always_move_variable": false,
+            "equal": false,
+            "identical": false,
+            "less_and_greater": null
+        },
         "use_arrow_functions": true,
         "single_line_empty_body": true,
         "return_type_declaration": {
