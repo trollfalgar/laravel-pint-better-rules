@@ -3,7 +3,9 @@
     "rules": {
         "simplified_null_return": true,
         "void_return": true,
-        "fully_qualified_strict_types": true,
+        "fully_qualified_strict_types": {
+            "import_symbols": true
+        },
         "compact_nullable_typehint": true,
         "cast_spaces": {
             "space": "single"
@@ -12,7 +14,9 @@
         "no_unused_imports": true,
         "no_useless_else": true,
         "no_useless_return": true,
-        "ordered_traits": true,
+        "ordered_traits": {
+            "case_sensitive": false
+        },
         "ordered_interfaces": {
             "order": "alpha",
             "direction": "ascend",
