@@ -27,4 +27,4 @@ The project page on Github can be found [here](https://github.com/laravel/pint).
 3. Run the command `./vendor/bin/pint` with or without arguments and **DONE**!
 
 ## Warning
-Laravel Pint require PHP 8 or higher.
+Laravel Pint require PHP 8.1 or higher.
