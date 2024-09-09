@@ -78,6 +78,9 @@
             "named_class": true,
             "anonymous_class": false
         },
+        "braces_position": {
+            "anonymous_classes_opening_brace": "same_line"
+        },
         "concat_space": {
             "spacing": "one"
         },
