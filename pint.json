@@ -74,7 +74,7 @@
         "return_type_declaration": {
             "space_before": "none"
         },
-        "new_with_braces": {
+        "new_with_parentheses": {
             "named_class": true,
             "anonymous_class": false
         },
