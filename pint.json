@@ -2,7 +2,9 @@
     "preset": "per",
     "rules": {
         "simplified_null_return": true,
-        "void_return": true,
+        "void_return": {
+            "fix_lambda": false
+        },
         "fully_qualified_strict_types": {
             "import_symbols": true
         },
